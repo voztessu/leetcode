@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class bai202 {
+
     static Set<Integer> set = new HashSet<>();
 
     public static boolean isHappy(int n) {

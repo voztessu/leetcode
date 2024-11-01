@@ -15,10 +15,6 @@ public class bai238 {
         right[n - 1] = 1;
         // n=4
         for (int i = n - 2; i >= 0; i--) {
-            // right[3] = 1
-            // i = 2 => right[2] = right[3]*nums[3] = 4
-            // i = 1 => right[1] = right[2]*nums[2] = 12
-            // i = 0 => right[0] = right[1]*nums[1] = 24
             right[i] = right[i + 1] * nums[i + 1];
         }
         for (int i = 0; i < n; i++) {
